@@ -40,6 +40,6 @@ function Header() {
     headerContainer.append(headerDiv);
 
 
-    
+    return headerDiv;
 }
 Header();
