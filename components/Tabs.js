@@ -17,7 +17,7 @@ axios
     
     const dataHolder=res.data.topics;
     dataHolder.forEach(function(topic){
-        //Creating topics div
+        //Assigning topics div
         const topicsDiv=document.querySelector(".topics");
     
         //Creating tabDiv
