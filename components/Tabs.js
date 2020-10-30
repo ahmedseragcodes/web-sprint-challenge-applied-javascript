@@ -26,6 +26,11 @@ axios
         tabDiv.textContent=topic;
         topicsDiv.append(tabDiv);
 
+        //Console logs when one of the topics/tabs is clicked
+        tabDiv.addEventListener("click", function(){
+            console.log("a tab has been clicked");
+        })
+
     })
 
 })

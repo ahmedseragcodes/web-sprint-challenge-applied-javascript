@@ -63,6 +63,7 @@ axios
         nameSpan.textContent="By"+article.authorName;
         authorDiv.append(nameSpan);
         
+        
     })
     //JAVASCRIPT ARTICLES
     const artHoldTwo=res.data.articles.javascript;
@@ -224,3 +225,4 @@ axios
 .catch (function(err){
     console.log(err);
 })
+
