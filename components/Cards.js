@@ -225,90 +225,105 @@ axios
         let tabStorageArea=document.querySelectorAll(".tab");
         tabStorageArea[0].addEventListener("click", function(){
             let cardStorageArea = document.querySelectorAll(".card");
-            cardStorageArea[0].style.display="none";
-            cardStorageArea[1].style.display="none";
-            cardStorageArea[2].style.display="none";
-            cardStorageArea[7].style.display="none";
-            cardStorageArea[8].style.display="none";
-            cardStorageArea[9].style.display="none";
-            cardStorageArea[10].style.display="none";
-            cardStorageArea[11].style.display="none";
-            cardStorageArea[12].style.display="none";
-            cardStorageArea[13].style.display="none";
-            cardStorageArea[14].style.display="none";
+            cardStorageArea[0].style.visibility="hidden";
+            cardStorageArea[1].style.visibility="hidden";
+            cardStorageArea[2].style.visibility="hidden";
+            cardStorageArea[3].style.visibility="visible";
+            cardStorageArea[4].style.visibility="visible";
+            cardStorageArea[5].style.visibility="visible";
+            cardStorageArea[6].style.visibility="visible";
+            cardStorageArea[7].style.visibility="hidden";
+            cardStorageArea[8].style.visibility="hidden";
+            cardStorageArea[9].style.visibility="hidden";
+            cardStorageArea[10].style.visibility="hidden";
+            cardStorageArea[11].style.visibility="hidden";
+            cardStorageArea[12].style.visibility="hidden";
+            cardStorageArea[13].style.visibility="hidden";
+            cardStorageArea[14].style.visibility="hidden";
         })
 
         // When Bootstrap Tab Is clicked, Only Display Bootstrap Articles 
   
         tabStorageArea[1].addEventListener("click", function(){
             let cardStorageArea = document.querySelectorAll(".card");
-            cardStorageArea[3].style.display="none";
-            cardStorageArea[4].style.display="none";
-            cardStorageArea[5].style.display="none";
-            cardStorageArea[6].style.display="none";
-            cardStorageArea[7].style.display="none";
-            cardStorageArea[8].style.display="none";
-            cardStorageArea[9].style.display="none";
-            cardStorageArea[10].style.display="none";
-            cardStorageArea[11].style.display="none";
-            cardStorageArea[12].style.display="none";
-            cardStorageArea[13].style.display="none";
-            cardStorageArea[14].style.display="none";
+            cardStorageArea[0].style.visibility="visible";
+            cardStorageArea[1].style.visibility="visible";
+            cardStorageArea[2].style.visibility="visible";
+            cardStorageArea[3].style.visibility="hidden";
+            cardStorageArea[4].style.visibility="hidden";
+            cardStorageArea[5].style.visibility="hidden";
+            cardStorageArea[6].style.visibility="hidden";
+            cardStorageArea[7].style.visibility="hidden";
+            cardStorageArea[8].style.visibility="hidden";
+            cardStorageArea[9].style.visibility="hidden";
+            cardStorageArea[10].style.visibility="hidden";
+            cardStorageArea[11].style.visibility="hidden";
+            cardStorageArea[12].style.visibility="hidden";
+            cardStorageArea[13].style.visibility="hidden";
+            cardStorageArea[14].style.visibility="hidden";
         })
 
         // When Technology Tab Is clicked, Only Display Technology Articles 
 
         tabStorageArea[2].addEventListener("click", function(){
             let cardStorageArea = document.querySelectorAll(".card");
-            cardStorageArea[0].style.display="none";
-            cardStorageArea[1].style.display="none";
-            cardStorageArea[2].style.display="none";
-            cardStorageArea[3].style.display="none";
-            cardStorageArea[4].style.display="none";
-            cardStorageArea[5].style.display="none";
-            cardStorageArea[6].style.display="none";
-            cardStorageArea[7].style.display="none";
-            cardStorageArea[8].style.display="none";
-            cardStorageArea[9].style.display="none";
-            cardStorageArea[10].style.display="none";
-            cardStorageArea[11].style.display="none";
+            cardStorageArea[0].style.visibility="hidden";
+            cardStorageArea[1].style.visibility="hidden";
+            cardStorageArea[2].style.visibility="hidden";
+            cardStorageArea[3].style.visibility="hidden";
+            cardStorageArea[4].style.visibility="hidden";
+            cardStorageArea[5].style.visibility="hidden";
+            cardStorageArea[6].style.visibility="hidden";
+            cardStorageArea[7].style.visibility="hidden";
+            cardStorageArea[8].style.visibility="hidden";
+            cardStorageArea[9].style.visibility="hidden";
+            cardStorageArea[10].style.visibility="hidden";
+            cardStorageArea[11].style.visibility="hidden";
+            cardStorageArea[12].style.visibility="visible";
+            cardStorageArea[13].style.visibility="visible";
+            cardStorageArea[14].style.visibility="visible";
         })
 
         // When JQUERY Tab Is clicked, Only Display JQUERY Articles 
 
         tabStorageArea[3].addEventListener("click", function(){
             let cardStorageArea = document.querySelectorAll(".card");
-            cardStorageArea[0].style.display="none";
-            cardStorageArea[1].style.display="none";
-            cardStorageArea[2].style.display="none";
-            cardStorageArea[3].style.display="none";
-            cardStorageArea[4].style.display="none";
-            cardStorageArea[5].style.display="none";
-            cardStorageArea[6].style.display="none";
-            cardStorageArea[10].style.display="none";
-            cardStorageArea[11].style.display="none";
-            cardStorageArea[12].style.display="none";
-            cardStorageArea[13].style.display="none";
-            cardStorageArea[14].style.display="none";
+            cardStorageArea[0].style.visibility="hidden";
+            cardStorageArea[1].style.visibility="hidden";
+            cardStorageArea[2].style.visibility="hidden";
+            cardStorageArea[3].style.visibility="hidden";
+            cardStorageArea[4].style.visibility="hidden";
+            cardStorageArea[5].style.visibility="hidden";
+            cardStorageArea[6].style.visibility="hidden";
+            cardStorageArea[7].style.visibility="visible";
+            cardStorageArea[8].style.visibility="visible";
+            cardStorageArea[9].style.visibility="visible";
+            cardStorageArea[10].style.visibility="hidden";
+            cardStorageArea[11].style.visibility="hidden";
+            cardStorageArea[12].style.visibility="hidden";
+            cardStorageArea[13].style.visibility="hidden";
+            cardStorageArea[14].style.visibility="hidden";
         })
 
         // When NodeJS Tab Is clicked, Only Display NodeJS Articles 
 
         tabStorageArea[4].addEventListener("click", function(){
             let cardStorageArea = document.querySelectorAll(".card");
-            cardStorageArea[0].style.display="none";
-            cardStorageArea[1].style.display="none";
-            cardStorageArea[2].style.display="none";
-            cardStorageArea[3].style.display="none";
-            cardStorageArea[4].style.display="none";
-            cardStorageArea[5].style.display="none";
-            cardStorageArea[6].style.display="none";
-            cardStorageArea[7].style.display="none";
-            cardStorageArea[8].style.display="none";
-            cardStorageArea[9].style.display="none";
-            cardStorageArea[12].style.display="none";
-            cardStorageArea[13].style.display="none";
-            cardStorageArea[14].style.display="none";
+            cardStorageArea[0].style.visibility="hidden";
+            cardStorageArea[1].style.visibility="hidden";
+            cardStorageArea[2].style.visibility="hidden";
+            cardStorageArea[3].style.visibility="hidden";
+            cardStorageArea[4].style.visibility="hidden";
+            cardStorageArea[5].style.visibility="hidden";
+            cardStorageArea[6].style.visibility="hidden";
+            cardStorageArea[7].style.visibility="hidden";
+            cardStorageArea[8].style.visibility="hidden";
+            cardStorageArea[9].style.visibility="hidden";
+            cardStorageArea[10].style.visibility="visible";
+            cardStorageArea[11].style.visibility="visible";
+            cardStorageArea[12].style.visibility="hidden";
+            cardStorageArea[13].style.visibility="hidden";
+            cardStorageArea[14].style.visibility="hidden";
         })
 
         
