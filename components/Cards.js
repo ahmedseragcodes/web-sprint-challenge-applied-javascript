@@ -60,7 +60,7 @@ axios
 
         //Creating Author Name Span
         const nameSpan=document.createElement("span");
-        nameSpan.textContent="By"+article.authorName;
+        nameSpan.textContent="By "+article.authorName;
         authorDiv.append(nameSpan);
         
         
@@ -100,7 +100,7 @@ axios
 
         //Creating Author Name Span
         const nameSpan=document.createElement("span");
-        nameSpan.textContent="By"+article.authorName;
+        nameSpan.textContent="By "+article.authorName;
         authorDiv.append(nameSpan);
         
     })
@@ -139,7 +139,7 @@ axios
 
         //Creating Author Name Span
         const nameSpan=document.createElement("span");
-        nameSpan.textContent="By"+article.authorName;
+        nameSpan.textContent="By "+article.authorName;
         authorDiv.append(nameSpan);
         
     })
@@ -178,7 +178,7 @@ axios
 
         //Creating Author Name Span
         const nameSpan=document.createElement("span");
-        nameSpan.textContent="By"+article.authorName;
+        nameSpan.textContent="By "+article.authorName;
         authorDiv.append(nameSpan);
         
     })
@@ -217,12 +217,40 @@ axios
 
         //Creating Author Name Span
         const nameSpan=document.createElement("span");
-        nameSpan.textContent="By"+article.authorName;
+        nameSpan.textContent="By "+article.authorName;
         authorDiv.append(nameSpan);
         
+        // event listener testing
+
+        let tabStorageArea=document.querySelectorAll(".tab");
+        tabStorageArea[0].addEventListener("click", function(){
+            let cardStorageArea = document.querySelectorAll(".card");
+            cardStorageArea[0].style.display="none";
+            cardStorageArea[1].style.display="none";
+            cardStorageArea[2].style.display="none";
+            cardStorageArea[7].style.display="none";
+            cardStorageArea[8].style.display="none";
+            cardStorageArea[9].style.display="none";
+            cardStorageArea[10].style.display="none";
+            cardStorageArea[11].style.display="none";
+            cardStorageArea[12].style.display="none";
+            cardStorageArea[13].style.display="none";
+            cardStorageArea[14].style.display="none";
+        })
+
+        //Console log hello when a card is clicked 
+    //     let cardStorageArea = document.querySelectorAll(".card");
+    //     for (let i=0; i<cardStorageArea.length; i++){
+    //     cardStorageArea[i].addEventListener("click", function () {
+    //     console.log("hello");
+    //     });
+    // }
+
     })
 })
 .catch (function(err){
     console.log(err);
 })
+
+
 
