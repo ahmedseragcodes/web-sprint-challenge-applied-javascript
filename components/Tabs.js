@@ -31,6 +31,10 @@ axios.get("https://lambda-times-api.herokuapp.com/topics")
     tabs.forEach(function(tab){
         tabMaker(tab);
     })
+    const allArticlesTab=document.createElement("div");
+    allArticlesTab.textContent="All";
+    allArticlesTab.classList.add("tab");
+    topicsDiv.append(allArticlesTab);
 })
 .catch(function(err){
     console.log(err);

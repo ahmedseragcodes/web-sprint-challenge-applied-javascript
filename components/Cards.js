@@ -194,7 +194,24 @@ tabStorage[4].addEventListener("click", function(event){
     cardStorage[14].style.visibility="visible";
 })
 
-
+//ALL ARTICLE FILTERING 
+tabStorage[5].addEventListener("click", function(event){
+    cardStorage[0].style.visibility="visible";
+    cardStorage[1].style.visibility="visible";
+    cardStorage[2].style.visibility="visible";
+    cardStorage[3].style.visibility="visible";
+    cardStorage[4].style.visibility="visible";
+    cardStorage[5].style.visibility="visible";
+    cardStorage[6].style.visibility="visible";
+    cardStorage[7].style.visibility="visible";
+    cardStorage[8].style.visibility="visible";
+    cardStorage[9].style.visibility="visible";
+    cardStorage[10].style.visibility="visible";
+    cardStorage[11].style.visibility="visible";
+    cardStorage[12].style.visibility="visible";
+    cardStorage[13].style.visibility="visible";
+    cardStorage[14].style.visibility="visible";
+})
 
 
 })
@@ -202,26 +219,3 @@ tabStorage[4].addEventListener("click", function(event){
     console.log(err);
 })
 
-
-//Tabs
-
-// const tabStorage=Array.from(document.querySelectorAll(".tab"));
-// const cardStorage=document.querySelectorAll(".card");
-
-// tabStorage[0].addEventListener("click", function(event){
-//     cardStorage[0].style.visibility="visible";
-//     cardStorage[1].style.visibility="visible";
-//     cardStorage[2].style.visibility="visible";
-//     cardStorage[3].style.visibility="visible";
-//     cardStorage[4].style.visibility="hidden";
-//     cardStorage[5].style.visibility="hidden";
-//     cardStorage[6].style.visibility="hidden";
-//     cardStorage[7].style.visibility="hidden";
-//     cardStorage[8].style.visibility="hidden";
-//     cardStorage[9].style.visibility="hidden";
-//     cardStorage[10].style.visibility="hidden";
-//     cardStorage[11].style.visibility="hidden";
-//     cardStorage[12].style.visibility="hidden";
-//     cardStorage[13].style.visibility="hidden";
-//     cardStorage[14].style.visibility="hidden";
-// })
